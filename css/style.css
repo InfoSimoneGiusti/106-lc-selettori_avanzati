@@ -3,3 +3,64 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+h1 {
+    color: red;
+}
+
+h1.titolo {
+    color: blue;
+    font-size: 18px;
+}
+
+.titolo {
+    text-decoration: underline;
+}
+
+div p {
+    color: red;
+}
+
+div div p {
+    color: blue;
+}
+
+input[type="text"] {
+    font-size: 20px;
+}
+
+div[pippo] {
+    color: purple;
+}
+
+div[pippo="pluto"] {
+    color: cyan;
+}
+
+div > strong {
+    text-decoration: underline;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:nth-child(2n) {
+    background-color: lightblue;
+}
+
+
+.provaBefore::before {
+    content: 'contenuto prima di elemento';
+}
+
+#provaHover {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+}
+
+#provaHover:hover {
+    background-color: blue;
+}
